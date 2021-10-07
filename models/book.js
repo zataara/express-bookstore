@@ -1,4 +1,6 @@
 const db = require("../db");
+const jsonschema = require("jsonschema");
+const bookSchema = require("../schemas/books.json");
 
 
 /** Collection of related methods for books. */
